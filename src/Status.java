@@ -1,11 +1,11 @@
-public enum status {
+public enum Status {
     ABERTO("Aberto"),
     ANDAMENTO("Em andamento"),
     FINALIZADO("Finalizado");
 
     private String status;
 
-    private status(String status){
+    private Status(String status){
         this.status = status;
     }
 
